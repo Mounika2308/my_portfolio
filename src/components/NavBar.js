@@ -15,8 +15,6 @@ import { ImBlog } from "react-icons/im";
 import logo from '../assets/img/logo.jpg';
 
 export const NavBar = () =>{
-    console.log("NavBar rendered");
-
     const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -63,7 +61,7 @@ export const NavBar = () =>{
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}
+                onClick={() => updateExpanded(true)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
@@ -104,7 +102,7 @@ export const NavBar = () =>{
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Mounika2308/my_portfolio.git"
                 target="_blank"
                 className="fork-btn-inner"
               >
