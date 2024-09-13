@@ -1,6 +1,7 @@
 import { ThemeProvider } from "./context/ThemeContext"; // Assuming this is the file where the context was created
 import {NavBar} from './components/NavBar';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Projects from './components/Projects/Project';
@@ -21,6 +22,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route exact path="/" element={<div><Home /></div>}>
+        <Route path="/about" element={<About />} />
         <Route exact path="/project" element={<div><Projects /></div>} />
         <Route exact path="/resume" element={<div><Resume /></div>} />
         </Route>
