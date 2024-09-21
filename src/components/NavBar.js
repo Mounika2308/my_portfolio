@@ -86,8 +86,8 @@ export const NavBar = () => {
 
               <Nav.Item>
                 <Nav.Link
-                  href="/Mounika_siripuram_resume.pdf"
-                  download="Mounika_siripuram_resume.pdf"
+                  href="/mounika-1.pdf"
+                  download="/mounika-1.pdf"
                   onClick={() => updateExpanded(false)}
                 >
                   <CgSoftwareDownload style={{ marginBottom: "2px" }} /> Resume
