@@ -20,8 +20,6 @@ function ProjectCard(props){
             <BsGithub /> &nbsp;
                 {props.isBlog ? "Blog" : "Github"} 
             </Button>
-            {"/n"}
-            {"/n"}
             {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
             {!props.isBlog && props.demoLink && (
                 <Button variant="primary" hret={props.demoLink}

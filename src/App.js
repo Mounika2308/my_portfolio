@@ -4,7 +4,7 @@ import Preloader from "../src/components/Pre";
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+// import Resume from "./components/Resume/ResumeNew";
 import Projects from './components/Projects/Project';
 import ScrollToTop from "./components/ScrollToTop";
 import {
@@ -35,12 +35,11 @@ function App() {
       <NavBar/>
       <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<div><Home /></div>}>
-        <Route path="/about" element={<About />} />
-        <Route exact path="/project" element={<div><Projects /></div>} />
-        <Route exact path="/resume" element={<div><Resume /></div>} />
-        </Route>
-        <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Projects />} />
+          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </div>

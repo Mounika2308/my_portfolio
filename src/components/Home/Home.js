@@ -2,7 +2,7 @@ import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 // import Text from './Text'
 import Particle from '../Particle';  // Ensure correct import path
-import homeLogo from '../../assets/img/home-main.svg'
+import homeLogo from '../../assets/img/home_girl.webp'
 import Home2  from './Home2'
 import Type from './Type'
 
@@ -15,7 +15,7 @@ import Type from './Type'
                     <Row>
                         <Col md={7} className="home-header">
     
-                        <h1 style={{scrollPaddingBottom:15}} className="haeding">
+                        <h1 style={{scrollPaddingBottom:15}} className="heading">
                             Hi There!{" "}
                         <span className="wave" role="img" aria-labelledby="wave">
                         👋🏻

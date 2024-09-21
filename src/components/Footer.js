@@ -13,13 +13,13 @@ import {
     return(
         <Container fluid className="footer">
             <Row>
-                <Col md="4" className="footer-copywright">
+                <Col md="3" className="footer-copywright">
                     <h3>Designed and Developed by Mounika Siripuram</h3>
             </Col>
-                <Col md="4" className="footer-copywright">
-                    <h3>Copyright © {year} SB</h3>
+                <Col md="3" className="footer-copywright">
+                    <h3>Copyright © {year} SM</h3>
             </Col>
-                <Col md="4" className="footer-body">
+                <Col md="3" className="footer-body">
                 <ul className="footer-icons">
                 <li className="social-icons">
                     <a
